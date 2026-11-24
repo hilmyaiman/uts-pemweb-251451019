@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Fun Run 5K 2026 — Informasi &amp; Pendaftaran</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-title">
+        <h1>Campus Fun Run 5K 2026</h1>
+        <p class="tagline">Lari Sehat, Kompak, dan Penuh Energi Bersama Civitas Akademika</p>
+      </div>
+      <nav aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#rundown">Syarat &amp; Alur</a>
+        <a href="#daftar">Daftar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="tentang" class="card">
+        <img
+          src="images/running.jpg"
+          alt="Sekelompok peserta berlari santai bersama di lintasan taman hijau yang rindang pada kegiatan Fun Run"
+          class="event-image"
+        >
+        <div class="tentang-konten">
+          <h2>Tentang Kegiatan</h2>
+          <p>
+            <strong>Campus Fun Run 5K 2026</strong> merupakan ajang olahraga lari santai terbuka
+            bagi mahasiswa, dosen, dan masyarakat umum untuk membangun gaya hidup aktif di
+            lingkungan kampus. Kegiatan ini mengusung semangat <em>run for health and togetherness</em>
+            dengan rute sepanjang 5 kilometer yang aman, ramah pemula, serta dilengkapi
+            <em>water station</em> dan sesi peregangan bersama.
+          </p>
+          <a
+            href="https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+            target="_blank"
+            rel="noreferrer"
+            class="external-link"
+          >
+            Baca Panduan Aktivitas Fisik &amp; Persiapan Lari Sehat (WHO) &#8599;
+          </a>
+        </div>
+      </section>
+
+      <section id="rundown" class="card">
+        <div class="rundown-box">
+          <h2>Syarat Peserta</h2>
+          <ul>
+            <li>Berusia minimal 17 tahun dan dalam kondisi fisik sehat jasmani.</li>
+            <li>Wajib mengenakan pakaian olahraga serta sepatu lari yang nyaman.</li>
+            <li>Hadir di garis start minimal 30 menit sebelum <em>flag-off</em> pukul 06.00 WIB.</li>
+            <li>Membawa identitas diri (KTM/KTP) saat pengambilan <em>race pack</em>.</li>
+          </ul>
+        </div>
+
+        <div class="rundown-box">
+          <h2>Alur Pendaftaran</h2>
+          <ol>
+            <li>Lengkapi data diri pada formulir pendaftaran di bawah halaman ini.</li>
+            <li>Pilih divisi atau kategori partisipasi yang diinginkan lalu centang persetujuan.</li>
+            <li>Klik tombol <strong>Kirim Pendaftaran</strong> untuk verifikasi data panitia.</li>
+            <li>Ambil nomor dada (<em>BIB</em>) dan kaus peserta satu hari sebelum acara.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="daftar" class="card">
+        <h2>Formulir Pendaftaran Fun Run</h2>
+        <form action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nama">Nama Lengkap</label>
+              <input
+                id="nama"
+                name="nama"
+                type="text"
+                placeholder="Masukkan nama lengkap"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="surel">Surel (Email)</label>
+              <input
+                id="surel"
+                name="surel"
+                type="email"
+                placeholder="nama@email.com"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="tanggal-lahir">Tanggal Lahir</label>
+              <input
+                id="tanggal-lahir"
+                name="tanggal_lahir"
+                type="date"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="divisi">Pilihan Divisi / Kategori</label>
+              <select id="divisi" name="divisi">
+                <option value="pelari-5k-mahasiswa">Pelari 5K — Mahasiswa</option>
+                <option value="pelari-5k-umum">Pelari 5K — Umum</option>
+                <option value="divisi-pacer">Divisi Pacer &amp; Rute</option>
+                <option value="divisi-logistik">Divisi Water Station &amp; Logistik</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <div class="checkbox-group">
+              <input
+                id="persetujuan"
+                name="persetujuan"
+                type="checkbox"
+                required
+              >
+              <label for="persetujuan">
+                Saya menyatakan kondisi fisik sehat dan menyetujui seluruh tata tertib Fun Run.
+              </label>
+            </div>
+
+            <button type="submit">Kirim Pendaftaran</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Pemrograman Web &middot; Panitia Campus Fun Run 5K</p>
+    </footer>
+  </div>
+</body>
+</html>
